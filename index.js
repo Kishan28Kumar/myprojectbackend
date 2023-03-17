@@ -39,7 +39,7 @@ MongoClient.connect(connectionString,{useUnifiedTopology:true}).then(client=>{
     messages = db.collection("Messages");
 })
 
-app.listen(80, ()=>{
+app.listen(5000, ()=>{
     console.log("Server Started");
 })
 
