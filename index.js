@@ -17,7 +17,7 @@ const fileUpload = require('express-fileupload');
 app.use(fileUpload());
 
 const connectionString =
-  "mongodb+srv://KishanKumar:Kishan123@cluster0.pt7me.mongodb.net/test";
+  "mongodb+srv://kishan123:kishan841406@cluster0.pt7me.mongodb.net/?retryWrites=true&w=majority";
 
 const client = new MongoClient(connectionString);
 
